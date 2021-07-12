@@ -10,7 +10,7 @@ app.use(express.json())
 /* routes */
 const animes = []
 
-app.get('/animes',(req,res) => res.json(animes))
+app.get('/',(req,res) => res.json(animes))
 
 app.post('/',(req, res) => {
   const {anime,nota} = req.body;
