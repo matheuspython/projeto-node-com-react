@@ -13,8 +13,8 @@ const animes = []
 app.get('/',(req,res) => res.json(animes))
 
 app.post('/',(req, res) => {
-  const {anime,nota} = req.body;
-  const atualAnime = { id: uuid(), anime, nota };
+  const {anime,nota,img} = req.body;
+  const atualAnime = { id: uuid(), anime, nota, img };
  
   animes.push(atualAnime);
 
