@@ -1,0 +1,14 @@
+.header {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #725ac1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  color: #f7ece1;
+  text-transform: uppercase;
+}
